@@ -16,10 +16,6 @@ public class UserService {
         return userRepo.save(user);
     }
 
-    public User getUserbyid(Long id) {
-        return userRepo.findById(id).get();
-    }
-
    public List<User> getAllUsers() {
         return userRepo.findAll();
     }
@@ -32,5 +28,9 @@ public class UserService {
             }
         }
         return false;
+    }
+
+    public User getUserById(Long id) {
+        return userRepo.findById(id).get();
     }
 }

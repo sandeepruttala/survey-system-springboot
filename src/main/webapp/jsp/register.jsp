@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
     <title>Surveys: Register</title>
 </head>

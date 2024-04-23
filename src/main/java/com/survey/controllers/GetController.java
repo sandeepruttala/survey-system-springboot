@@ -42,6 +42,12 @@ public class GetController {
         return "home";
     }
 
-
+    @GetMapping("/create_survey")
+    public String createSurvey(HttpSession session){
+        if (session.getAttribute("isAuthenticated") == null) {
+            return "redirect:/login";
+        }
+        return "create_survey";
+    }
 
 }
