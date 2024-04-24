@@ -13,7 +13,6 @@ public class Question {
     private String option2;
     private String option3;
     private String option4;
-    private String answer;
 
     @ManyToOne
     @JoinColumn(name = "survey_id", nullable = false)
@@ -28,7 +27,6 @@ public class Question {
         this.option2 = option2;
         this.option3 = option3;
         this.option4 = option4;
-        this.answer = answer;
         this.survey = survey;
     }
 
@@ -80,13 +78,6 @@ public class Question {
         this.option4 = option4;
     }
 
-    public String getAnswer() {
-        return answer;
-    }
-
-    public void setAnswer(String answer) {
-        this.answer = answer;
-    }
 
     public Survey getSurvey() {
         return survey;

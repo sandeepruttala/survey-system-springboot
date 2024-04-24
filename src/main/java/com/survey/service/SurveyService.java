@@ -27,4 +27,8 @@ public class SurveyService {
     public void deleteSurvey(Long id) {
         surveyRepo.deleteById(id);
     }
+
+    public List<Survey> findSurveysByCreatorId(Long id) {
+        return surveyRepo.findByCreatorId(id);
+    }
 }

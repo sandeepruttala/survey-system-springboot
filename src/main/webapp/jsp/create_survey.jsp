@@ -28,7 +28,6 @@
                 <input type="text" name="option2" placeholder="Option 2" required>
                 <input type="text" name="option3" placeholder="Option 3" required>
                 <input type="text" name="option4" placeholder="Option 4" required>
-                <input type="text" name="answer" placeholder="Answer" required>
                 <br>
             `;
             document.querySelector('#questions').appendChild(question);
