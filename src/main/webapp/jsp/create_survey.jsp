@@ -19,6 +19,7 @@
     </form>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            let count = 0;
         document.getElementById('addQuestion').addEventListener('click', function() {
             let question = document.createElement('div');
             question.innerHTML = `

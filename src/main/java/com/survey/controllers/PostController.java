@@ -1,9 +1,11 @@
 package com.survey.controllers;
 
 import com.survey.models.Question;
+import com.survey.models.SurveyResponse;
 import com.survey.models.User;
 import com.survey.models.Survey;
 import com.survey.service.QuestionService;
+import com.survey.service.SurveyResponseService;
 import com.survey.service.SurveyService;
 import com.survey.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +14,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import jakarta.servlet.http.HttpSession;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.net.http.HttpRequest;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +30,8 @@ public class PostController {
     private SurveyService surveyService;
     @Autowired
     private QuestionService questionService;
+    @Autowired
+    private SurveyResponseService surveyResponseService;
 
     @PostMapping("/save")
     public String save(User user) {
@@ -67,9 +73,8 @@ public String saveSurvey(HttpSession session,
     survey.setDescription(description);
     survey.setCreator(userService.getUserById((Long) session.getAttribute("id")));
     surveyService.saveSurvey(survey);
-    // Instead of setting a new list, use the getter and clear/add
     List<Question> questions = survey.getQuestions();
-    questions.clear();  // Clears the existing list instead of creating a new one
+    questions.clear();
 
     for (int i = 0; i < question.size(); i++) {
         Question q = new Question();
@@ -78,12 +83,11 @@ public String saveSurvey(HttpSession session,
         q.setOption2(option2.get(i));
         q.setOption3(option3.get(i));
         q.setOption4(option4.get(i));
-        q.setSurvey(survey);  // Maintain back reference
+        q.setSurvey(survey);
         questionService.saveQuestion(q);
-        questions.add(q);    // Add to the existing list
+        questions.add(q);
     }
 
-    // Now that we've modified the existing collection, we can save
     surveyService.saveSurvey(survey);
     return "redirect:/home";
 }
@@ -104,9 +108,8 @@ public String saveSurvey(HttpSession session,
         survey.setDescription(description);
         survey.setCreator(userService.getUserById((Long) session.getAttribute("id")));
         surveyService.saveSurvey(survey);
-        // Instead of setting a new list, use the getter and clear/add
         List<Question> questions = survey.getQuestions();
-        questions.clear();  // Clears the existing list instead of creating a new one
+        questions.clear();
 
         for (int i = 0; i < question.size(); i++) {
             Question q = new Question();
@@ -115,14 +118,37 @@ public String saveSurvey(HttpSession session,
             q.setOption2(option2.get(i));
             q.setOption3(option3.get(i));
             q.setOption4(option4.get(i));
-            q.setSurvey(survey);  // Maintain back reference
+            q.setSurvey(survey);
             questionService.saveQuestion(q);
-            questions.add(q);    // Add to the existing list
+            questions.add(q);
         }
 
-        // Now that we've modified the existing collection, we can save
         surveyService.saveSurvey(survey);
         return "redirect:/home";
     }
+
+    @PostMapping("/saveResponse/{surveyId}")
+    public String saveResponse(@PathVariable("surveyId") Long surveyId, HttpServletRequest request, HttpSession session) {
+    if (session.getAttribute("id") == null) {
+        return "redirect:/login";
+    }
+
+    Survey survey = surveyService.getSurveybyid(surveyId);
+    List<String> answers = new ArrayList<>();
+
+    int count = 0;
+    while (request.getParameter("question" + count) != null) {
+        String response = request.getParameter("question" + count);
+        answers.add(response);
+        count++;
+    }
+
+    User respondent = userService.getUserById((Long) session.getAttribute("id"));
+    SurveyResponse surveyResponse = new SurveyResponse(survey, respondent, answers);
+    surveyResponseService.saveSurveyResponse(surveyResponse);
+
+    return "redirect:/home";
+}
+
 
 }
