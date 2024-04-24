@@ -59,7 +59,7 @@ public class PostController {
     }
 
     @PostMapping("/saveSurvey")
-public String saveSurvey(HttpSession session,
+    public String saveSurvey(HttpSession session,
                          @RequestParam String title,
                          @RequestParam String description,
                          @RequestParam List<String> question,
@@ -129,26 +129,26 @@ public String saveSurvey(HttpSession session,
 
     @PostMapping("/saveResponse/{surveyId}")
     public String saveResponse(@PathVariable("surveyId") Long surveyId, HttpServletRequest request, HttpSession session) {
-    if (session.getAttribute("id") == null) {
-        return "redirect:/login";
+        if (session.getAttribute("id") == null) {
+            return "redirect:/login";
+        }
+
+        Survey survey = surveyService.getSurveybyid(surveyId);
+        List<String> answers = new ArrayList<>();
+
+        int count = 0;
+        while (request.getParameter("question" + count) != null) {
+            String response = request.getParameter("question" + count);
+            answers.add(response);
+            count++;
+        }
+
+        User respondent = userService.getUserById((Long) session.getAttribute("id"));
+        SurveyResponse surveyResponse = new SurveyResponse(survey, respondent, answers);
+        surveyResponseService.saveSurveyResponse(surveyResponse);
+
+        return "redirect:/home";
     }
-
-    Survey survey = surveyService.getSurveybyid(surveyId);
-    List<String> answers = new ArrayList<>();
-
-    int count = 0;
-    while (request.getParameter("question" + count) != null) {
-        String response = request.getParameter("question" + count);
-        answers.add(response);
-        count++;
-    }
-
-    User respondent = userService.getUserById((Long) session.getAttribute("id"));
-    SurveyResponse surveyResponse = new SurveyResponse(survey, respondent, answers);
-    surveyResponseService.saveSurveyResponse(surveyResponse);
-
-    return "redirect:/home";
-}
 
 
 }

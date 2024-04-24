@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttribute;
 import jakarta.servlet.http.HttpSession;
 
@@ -95,6 +96,13 @@ public class GetController {
         Survey survey = surveyService.getSurveybyid(id);
         model.addAttribute("survey", survey);
         return "edit_survey";
+    }
+
+    @GetMapping("/search_survey")
+    public String searchSurvey(@RequestParam String query, Model model){
+        List<Survey> surveys = surveyService.searchSurveyByQuery(query);
+        model.addAttribute("surveys",surveys);
+        return "home";
     }
 
 }

@@ -3,6 +3,8 @@ import com.survey.models.Survey;
 import com.survey.repo.SurveyRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import java.util.List;
 
@@ -30,5 +32,14 @@ public class SurveyService {
 
     public List<Survey> findSurveysByCreatorId(Long id) {
         return surveyRepo.findByCreatorId(id);
+    }
+
+    public List<Survey> searchSurveyByQuery(String query){
+        Pattern pattern = Pattern.compile(query, Pattern.CASE_INSENSITIVE);
+        List<Survey> surveys = surveyRepo.findAll();
+
+        return surveys.stream()
+                .filter(survey -> pattern.matcher(survey.getTitle()).find())
+                .collect(Collectors.toList());
     }
 }

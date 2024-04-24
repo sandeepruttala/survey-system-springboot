@@ -9,6 +9,7 @@
 <body>
 
     <h1>${survey.title}</h1>
+    <p>created by ${survey.creator.username}</p>
     <p>${survey.description}</p>
 
     <form action="/saveResponse/${survey.id}" method="post">
