@@ -1,6 +1,8 @@
 package com.survey.controllers;
 
 import com.survey.models.Survey;
+import com.survey.models.SurveyResponse;
+import com.survey.service.SurveyResponseService;
 import org.springframework.ui.Model;
 import com.survey.service.QuestionService;
 import com.survey.service.SurveyService;
@@ -24,6 +26,8 @@ public class GetController {
     private SurveyService surveyService;
     @Autowired
     private QuestionService questionService;
+    @Autowired
+    private SurveyResponseService surveyResponseService;
 
     @GetMapping("/error")
     public String error() {
@@ -105,4 +109,12 @@ public class GetController {
         return "home";
     }
 
+    @GetMapping("/survey_responses/{id}")
+    public String surveyResponses(Model model, @PathVariable Long id){
+        Survey survey = surveyService.getSurveybyid(id);
+        List<SurveyResponse> surveyResponses = surveyResponseService.getSurveyResponsesBySurveyId(id);
+        model.addAttribute("responses", surveyResponses);
+        model.addAttribute("survey", survey);
+        return "survey_responses";
+    }
 }

@@ -7,5 +7,4 @@ import java.util.List;
 
 public interface SurveyRepo extends JpaRepository<Survey, Long> {
     List<Survey> findByCreatorId(Long creatorId);
-    List<Survey> searchByTitle(String Query);
 }

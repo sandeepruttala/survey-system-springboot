@@ -5,6 +5,8 @@ import com.survey.repo.SurveyResponseRepo;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 
 @Service
 public class SurveyResponseService {
@@ -16,4 +18,7 @@ public class SurveyResponseService {
         surveyResponseRepo.save(surveyResponse);
     }
 
+    public List<SurveyResponse> getSurveyResponsesBySurveyId(Long id) {
+        return surveyResponseRepo.findSurveyResponseBySurveyId(id);
+    }
 }

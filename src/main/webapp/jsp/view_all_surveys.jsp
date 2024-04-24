@@ -16,6 +16,7 @@
             <th>Survey Name</th>
             <th>Survey Description</th>
             <th>Actions</th>
+            <td>View Responses</td>
         </tr>
         <c:forEach var="survey" items="${surveys}">
             <tr>
@@ -26,6 +27,9 @@
                     <a href="survey/${survey.id}">View</a> |
                     <a href="edit_survey/${survey.id}">Edit</a> |
                     <a href="delete_survey/${survey.id}">Delete</a>
+                </td>
+                <td>
+                    <a href="survey_responses/${survey.id}">View Responses</a>
                 </td>
             </tr>
         </c:forEach>
