@@ -126,7 +126,7 @@
     </div>
     <nav class="nav_bar">
         <div>
-            <a href="create_survey">Create Survey</a>
+            <a href="create_survey">Create New Survey</a>
             <a href="view_all_surveys">View your Surveys</a>
         </div>
         <div>

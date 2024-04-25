@@ -1,5 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
-
 <head>
     <title>Create Survey</title>
     <style>
@@ -105,7 +106,7 @@
                 let question = document.createElement('div');
                 question.innerHTML = `
                 <div style="height: 16px;"></div>
-                <input type="text" name="question" placeholder="Question" class="none" required>
+                <input  style="background-color: #f2e5fd" type="text" name="question" placeholder="Question \${++count}" class="display" required>
                 <div style="height: 16px;"></div>
                 <input type="text" name="option1" placeholder="Option 1" class="none" required>
                 <div style="height: 16px;"></div>

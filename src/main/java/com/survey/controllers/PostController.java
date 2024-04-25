@@ -149,4 +149,20 @@ public class PostController {
         return "redirect:/home";
     }
 
+    @PostMapping("/export_responses/{id}")
+    public void exportResponses(@PathVariable Long id, HttpServletResponse response) throws IOException {
+
+        List<SurveyResponse> surveyResponse = surveyResponseService.getSurveyResponsesBySurveyId(id);
+        response.setContentType("text/csv");
+        response.setHeader("Content-Disposition", "attachment; filename=\"survey-responses-" + id + ".csv\"");
+        PrintWriter writer = response.getWriter();
+        writer.println("Survey Title, Respondent, Response");
+        for (SurveyResponse res : surveyResponse) {
+//            writer.println(sr.getSurvey().getTitle() + "," + sr.getRespondent().getUsername() + "," + sr.getAnswers());
+            String respondentName = res.getRespondent().getUsername();
+                String answers = String.join(",", res.getAnswers());
+                writer.printf("%d,%s,\"%s\"%n", res.getId(), respondentName, answers);
+        }
+        writer.flush();
+    }
 }
