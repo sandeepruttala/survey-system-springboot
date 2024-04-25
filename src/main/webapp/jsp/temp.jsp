@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 
 <head>
@@ -8,7 +6,7 @@
         * {
             margin: 0;
             padding: 0;
-            font-family: "Google Sans", sans-serif;
+            font-family: Sequel Sans;
             box-sizing: border-box;
         }
 
@@ -31,7 +29,7 @@
         .heading {
             font-size: 20px;
             font-weight: 900;
-            /*color: #7248b9;*/
+            color: #7248b9;
         }
 
         button {
@@ -73,7 +71,6 @@
             top: 0;
             padding-top: 100px;
             background: white;
-            border-right: 2px solid #7248b966;
         }
 
         .nav_bar a {
@@ -90,7 +87,6 @@
         }
 
         .search-results {
-            margin-left: 200px;
             transform: translateY(220px);
             display: flex;
             flex-direction: column;
@@ -129,22 +125,22 @@
             <a href="create_survey">Create Survey</a>
             <a href="view_all_surveys">View your Surveys</a>
         </div>
+        <div style="height: 390px;"></div>
         <div>
             <a href="logout">Logout &nbsp;
                 <i class="fa-solid fa-right-from-bracket"></i></a>
         </div>
     </nav>
     <div class="search-results">
-        <span style="font-size: 28px;font-weight: bold;margin-top: -130px; margin-bottom:50px;">Explore Surveys</span>
         <form action="search_survey" method="get" class="form">
-            <input type="text" name="query" id="searchInput" placeholder="Start searching for Surveys..." value="${query}"
+            <input type="text" name="query" id="searchInput" placeholder="Search" onkeyup="toggleSearchResults()"
                 required>
             <button type="submit">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </form>
         <div style="height: 15px;"></div>
-        <div class="results" id="searchResults">
+        <div class="results" id="searchResults" style="display: none;">
             <p style="color: #8f8f8f;">Search Results</p>
             <div style="height: 18px;"></div>
             <ul>

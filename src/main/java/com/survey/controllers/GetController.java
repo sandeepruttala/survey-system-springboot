@@ -106,6 +106,7 @@ public class GetController {
     public String searchSurvey(@RequestParam String query, Model model){
         List<Survey> surveys = surveyService.searchSurveyByQuery(query);
         model.addAttribute("surveys",surveys);
+        model.addAttribute("query", query);
         return "home";
     }
 
