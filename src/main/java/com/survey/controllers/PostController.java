@@ -8,6 +8,7 @@ import com.survey.service.QuestionService;
 import com.survey.service.SurveyResponseService;
 import com.survey.service.SurveyService;
 import com.survey.service.UserService;
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +18,8 @@ import jakarta.servlet.http.HttpSession;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.http.HttpRequest;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,13 +47,9 @@ public class PostController {
     public String authenticate(User user, HttpSession session) {
         boolean isUserAuthenticated = userService.authenticateUser(user);
         if (isUserAuthenticated) {
+            User u = userService.getAllUsers().stream().filter(user1 -> user1.getUsername().equals(user.getUsername())).findFirst().get();
+            session.setAttribute("id", u.getId());
             session.setAttribute("username", user.getUsername());
-            List<User> users = userService.getAllUsers();
-            for (User u : users) {
-                if (u.getUsername().equals(user.getUsername()) && u.getPassword().equals(user.getPassword())) {
-                    session.setAttribute("id", u.getId());
-                }
-            }
             session.setAttribute("isAuthenticated", true);
             return "redirect:/home";
         } else {
@@ -149,6 +148,5 @@ public class PostController {
 
         return "redirect:/home";
     }
-
 
 }

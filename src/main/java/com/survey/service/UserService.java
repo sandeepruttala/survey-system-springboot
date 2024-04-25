@@ -21,13 +21,7 @@ public class UserService {
     }
 
     public boolean authenticateUser(User user) {
-        List<User> users = userRepo.findAll();
-        for (User u : users) {
-            if (u.getUsername().equals(user.getUsername()) && u.getPassword().equals(user.getPassword())) {
-                return true;
-            }
-        }
-        return false;
+        return userRepo.existsByUsernameAndPassword(user.getUsername(), user.getPassword());
     }
 
     public User getUserById(Long id) {

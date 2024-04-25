@@ -6,6 +6,9 @@
 </head>
 <body>
     <h1>Survey Responses for Survey ID: ${id} (${survey.title})</h1>
+    <form action="/export_responses/${id}" method="post">
+    <button type="submit">Export Responses</button>
+    </form>
     <table border="1">
         <tr>
             <th>Response ID</th>
