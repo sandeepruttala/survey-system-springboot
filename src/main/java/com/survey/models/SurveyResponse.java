@@ -11,7 +11,7 @@ public class SurveyResponse {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "survey_id", nullable = false)
     private Survey survey;
 

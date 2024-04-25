@@ -1957,3 +1957,1094 @@ Was expecting one of:
 2024-04-25T11:15:20.182+05:30  INFO 3438 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-04-25T11:15:20.187+05:30  INFO 3438 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-04-25T11:15:20.196+05:30  INFO 3438 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T11:39:11.583+05:30  INFO 3750 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 3750 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T11:39:11.585+05:30  INFO 3750 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T11:39:11.803+05:30  INFO 3750 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T11:39:11.825+05:30  INFO 3750 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2024-04-25T11:39:12.113+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T11:39:12.119+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T11:39:12.119+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T11:39:12.226+05:30  INFO 3750 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T11:39:12.229+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T11:39:12.229+05:30  INFO 3750 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 622 ms
+2024-04-25T11:39:12.296+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T11:39:12.327+05:30  INFO 3750 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T11:39:12.343+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T11:39:12.466+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T11:39:12.480+05:30  INFO 3750 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T11:39:12.666+05:30  INFO 3750 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31ab4859
+2024-04-25T11:39:12.667+05:30  INFO 3750 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T11:39:13.230+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T11:39:13.312+05:30  INFO 3750 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T11:39:13.495+05:30  WARN 3750 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T11:39:13.688+05:30  INFO 3750 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T11:39:13.692+05:30  INFO 3750 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.292 seconds (process running for 2.649)
+2024-04-25T11:39:18.679+05:30  INFO 3750 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T11:39:18.679+05:30  INFO 3750 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T11:39:18.682+05:30  INFO 3750 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-25T11:40:10.987+05:30  INFO 3750 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T11:40:10.991+05:30  INFO 3750 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T11:40:11.012+05:30  INFO 3750 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T11:40:12.240+05:30  INFO 3776 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 3776 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T11:40:12.241+05:30  INFO 3776 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T11:40:12.437+05:30  INFO 3776 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T11:40:12.458+05:30  INFO 3776 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2024-04-25T11:40:12.748+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T11:40:12.753+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T11:40:12.754+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T11:40:12.847+05:30  INFO 3776 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T11:40:12.850+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T11:40:12.850+05:30  INFO 3776 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 586 ms
+2024-04-25T11:40:12.917+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T11:40:12.944+05:30  INFO 3776 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T11:40:12.960+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T11:40:13.073+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T11:40:13.085+05:30  INFO 3776 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T11:40:13.230+05:30  INFO 3776 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29d3d0fb
+2024-04-25T11:40:13.231+05:30  INFO 3776 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T11:40:13.700+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T11:40:13.776+05:30  INFO 3776 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T11:40:13.947+05:30  WARN 3776 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T11:40:14.094+05:30  INFO 3776 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T11:40:14.099+05:30  INFO 3776 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.026 seconds (process running for 2.318)
+2024-04-25T11:40:17.021+05:30  INFO 3776 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T11:40:17.021+05:30  INFO 3776 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T11:40:17.022+05:30  INFO 3776 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T11:40:37.382+05:30  INFO 3776 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T11:40:37.383+05:30  INFO 3776 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T11:40:37.386+05:30  INFO 3776 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T11:40:38.511+05:30  INFO 3783 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 3783 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T11:40:38.512+05:30  INFO 3783 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T11:40:38.701+05:30  INFO 3783 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T11:40:38.723+05:30  INFO 3783 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2024-04-25T11:40:38.997+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T11:40:39.002+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T11:40:39.002+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T11:40:39.093+05:30  INFO 3783 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T11:40:39.096+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T11:40:39.096+05:30  INFO 3783 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 563 ms
+2024-04-25T11:40:39.158+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T11:40:39.185+05:30  INFO 3783 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T11:40:39.199+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T11:40:39.312+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T11:40:39.324+05:30  INFO 3783 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T11:40:39.470+05:30  INFO 3783 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45c90a05
+2024-04-25T11:40:39.470+05:30  INFO 3783 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T11:40:39.961+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T11:40:40.037+05:30  INFO 3783 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T11:40:40.210+05:30  WARN 3783 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T11:40:40.363+05:30  INFO 3783 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T11:40:40.368+05:30  INFO 3783 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.019 seconds (process running for 2.343)
+2024-04-25T11:40:42.734+05:30  INFO 3783 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T11:40:42.735+05:30  INFO 3783 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T11:40:42.736+05:30  INFO 3783 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T11:55:22.178+05:30  WARN 3783 --- [survey-system-spring-boot] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m12s525ms).
+2024-04-25T11:55:40.610+05:30  INFO 3783 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T11:55:40.612+05:30  INFO 3783 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T11:55:40.620+05:30  INFO 3783 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T11:55:42.011+05:30  INFO 3876 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 3876 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T11:55:42.013+05:30  INFO 3876 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T11:55:42.231+05:30  INFO 3876 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T11:55:42.254+05:30  INFO 3876 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2024-04-25T11:55:42.540+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T11:55:42.546+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T11:55:42.546+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T11:55:42.645+05:30  INFO 3876 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T11:55:42.648+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T11:55:42.648+05:30  INFO 3876 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 611 ms
+2024-04-25T11:55:42.717+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T11:55:42.750+05:30  INFO 3876 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T11:55:42.768+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T11:55:42.890+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T11:55:42.903+05:30  INFO 3876 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T11:55:43.101+05:30  INFO 3876 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31ab4859
+2024-04-25T11:55:43.102+05:30  INFO 3876 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T11:55:43.623+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T11:55:43.708+05:30  INFO 3876 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T11:55:43.883+05:30  WARN 3876 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T11:55:44.043+05:30  INFO 3876 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T11:55:44.048+05:30  INFO 3876 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.224 seconds (process running for 2.592)
+2024-04-25T11:55:46.741+05:30  INFO 3876 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T11:55:46.741+05:30  INFO 3876 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T11:55:46.742+05:30  INFO 3876 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T12:18:17.131+05:30  INFO 3876 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T12:18:17.137+05:30  INFO 3876 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T12:18:17.170+05:30  INFO 3876 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:26:10.505+05:30  INFO 4711 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4711 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:26:10.507+05:30  INFO 4711 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:26:10.891+05:30  INFO 4711 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:26:10.931+05:30  INFO 4711 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:26:11.437+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:26:11.445+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:26:11.446+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:26:11.596+05:30  INFO 4711 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:26:11.601+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:26:11.601+05:30  INFO 4711 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1054 ms
+2024-04-25T14:26:11.712+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:26:11.764+05:30  INFO 4711 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:26:11.791+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:26:11.994+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:26:12.014+05:30  INFO 4711 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:26:12.301+05:30  INFO 4711 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75d97e18
+2024-04-25T14:26:12.303+05:30  INFO 4711 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:26:13.053+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:26:13.148+05:30  INFO 4711 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:26:13.410+05:30  WARN 4711 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:26:13.641+05:30  INFO 4711 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:26:13.648+05:30  INFO 4711 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.509 seconds (process running for 4.095)
+2024-04-25T14:26:18.716+05:30  INFO 4711 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:26:18.716+05:30  INFO 4711 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:26:18.718+05:30  INFO 4711 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:26:56.635+05:30  INFO 4711 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:26:56.637+05:30  INFO 4711 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:26:56.642+05:30  INFO 4711 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:26:58.527+05:30  INFO 4731 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4731 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:26:58.528+05:30  INFO 4731 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:26:58.864+05:30  INFO 4731 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:26:58.896+05:30  INFO 4731 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:26:59.330+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:26:59.338+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:26:59.338+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:26:59.475+05:30  INFO 4731 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:26:59.480+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:26:59.480+05:30  INFO 4731 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 915 ms
+2024-04-25T14:26:59.579+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:26:59.623+05:30  INFO 4731 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:26:59.647+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:26:59.802+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:26:59.824+05:30  INFO 4731 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:27:00.048+05:30  INFO 4731 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@284d4885
+2024-04-25T14:27:00.049+05:30  INFO 4731 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:27:00.778+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:27:00.860+05:30  INFO 4731 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:27:01.109+05:30  WARN 4731 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:27:01.346+05:30  INFO 4731 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:27:01.353+05:30  INFO 4731 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.196 seconds (process running for 3.78)
+2024-04-25T14:27:03.335+05:30  INFO 4731 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:27:03.335+05:30  INFO 4731 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:27:03.337+05:30  INFO 4731 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:27:36.284+05:30  INFO 4731 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:27:36.290+05:30  INFO 4731 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:27:36.299+05:30  INFO 4731 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:27:38.199+05:30  INFO 4751 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4751 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:27:38.200+05:30  INFO 4751 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:27:38.524+05:30  INFO 4751 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:27:38.554+05:30  INFO 4751 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:27:38.962+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:27:38.970+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:27:38.970+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:27:39.103+05:30  INFO 4751 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:27:39.107+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:27:39.108+05:30  INFO 4751 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 870 ms
+2024-04-25T14:27:39.204+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:27:39.246+05:30  INFO 4751 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:27:39.271+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:27:39.427+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:27:39.447+05:30  INFO 4751 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:27:39.671+05:30  INFO 4751 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@573a078
+2024-04-25T14:27:39.672+05:30  INFO 4751 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:27:40.415+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:27:40.505+05:30  INFO 4751 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:27:40.758+05:30  WARN 4751 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:27:40.992+05:30  INFO 4751 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:27:40.999+05:30  INFO 4751 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.16 seconds (process running for 3.753)
+2024-04-25T14:27:44.097+05:30  INFO 4751 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:27:44.097+05:30  INFO 4751 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:27:44.099+05:30  INFO 4751 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:28:41.728+05:30  INFO 4751 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:28:41.730+05:30  INFO 4751 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:28:41.739+05:30  INFO 4751 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:28:43.435+05:30  INFO 4757 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4757 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:28:43.437+05:30  INFO 4757 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:28:43.786+05:30  INFO 4757 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:28:43.818+05:30  INFO 4757 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:28:44.226+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:28:44.233+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:28:44.233+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:28:44.372+05:30  INFO 4757 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:28:44.377+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:28:44.377+05:30  INFO 4757 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 898 ms
+2024-04-25T14:28:44.470+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:28:44.513+05:30  INFO 4757 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:28:44.539+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:28:44.695+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:28:44.715+05:30  INFO 4757 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:28:44.939+05:30  INFO 4757 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71039ce1
+2024-04-25T14:28:44.941+05:30  INFO 4757 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:28:45.658+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:28:45.745+05:30  INFO 4757 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:28:46.006+05:30  WARN 4757 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:28:46.240+05:30  INFO 4757 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:28:46.247+05:30  INFO 4757 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.172 seconds (process running for 3.697)
+2024-04-25T14:28:48.789+05:30  INFO 4757 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:28:48.789+05:30  INFO 4757 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:28:48.790+05:30  INFO 4757 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:29:16.014+05:30  INFO 4757 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:29:16.016+05:30  INFO 4757 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:29:16.019+05:30  INFO 4757 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:29:17.717+05:30  INFO 4764 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4764 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:29:17.718+05:30  INFO 4764 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:29:18.021+05:30  INFO 4764 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:29:18.049+05:30  INFO 4764 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:29:18.466+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:29:18.474+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:29:18.474+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:29:18.616+05:30  INFO 4764 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:29:18.621+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:29:18.621+05:30  INFO 4764 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 869 ms
+2024-04-25T14:29:18.723+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:29:18.767+05:30  INFO 4764 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:29:18.790+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:29:18.950+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:29:18.970+05:30  INFO 4764 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:29:19.200+05:30  INFO 4764 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@573a078
+2024-04-25T14:29:19.201+05:30  INFO 4764 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:29:19.929+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:29:20.017+05:30  INFO 4764 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:29:20.271+05:30  WARN 4764 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:29:20.507+05:30  INFO 4764 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:29:20.514+05:30  INFO 4764 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.073 seconds (process running for 3.679)
+2024-04-25T14:29:23.207+05:30  INFO 4764 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:29:23.207+05:30  INFO 4764 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:29:23.208+05:30  INFO 4764 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:30:52.073+05:30  INFO 4764 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:30:52.076+05:30  INFO 4764 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:30:52.082+05:30  INFO 4764 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:30:56.675+05:30  INFO 4778 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4778 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:30:56.676+05:30  INFO 4778 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:30:57.005+05:30  INFO 4778 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:30:57.038+05:30  INFO 4778 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:30:57.467+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:30:57.475+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:30:57.475+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:30:57.619+05:30  INFO 4778 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:30:57.623+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:30:57.623+05:30  INFO 4778 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
+2024-04-25T14:30:57.721+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:30:57.762+05:30  INFO 4778 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:30:57.785+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:30:57.943+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:30:57.962+05:30  INFO 4778 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:30:58.187+05:30  INFO 4778 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1846ad0f
+2024-04-25T14:30:58.189+05:30  INFO 4778 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:30:58.901+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:30:58.991+05:30  INFO 4778 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:30:59.238+05:30  WARN 4778 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:30:59.473+05:30  INFO 4778 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:30:59.480+05:30  INFO 4778 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.074 seconds (process running for 3.604)
+2024-04-25T14:31:01.319+05:30  INFO 4778 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:31:01.319+05:30  INFO 4778 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:31:01.320+05:30  INFO 4778 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:31:01.515+05:30 ERROR 4778 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/].[jsp]        : Servlet.service() for servlet [jsp] threw exception
+
+org.apache.jasper.JasperException: /jsp/survey_responses.jsp (line: [76], column: [16]) No tag [] defined in tag library imported with prefix [c]
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:299) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:99) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1161) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1402) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1607) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1011) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1222) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1402) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:135) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:245) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:106) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:211) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:396) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:602) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:305) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:653) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:419) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-04-25T14:31:01.519+05:30 ERROR 4778 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [/jsp/survey_responses.jsp (line: [76], column: [16]) No tag [] defined in tag library imported with prefix [c]] with root cause
+
+org.apache.jasper.JasperException: /jsp/survey_responses.jsp (line: [76], column: [16]) No tag [] defined in tag library imported with prefix [c]
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:299) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:99) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1161) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1402) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1607) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1011) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1222) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1402) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:135) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:245) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:106) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:211) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:396) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:602) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:305) ~[tomcat-embed-jasper-11.0.0-M18.jar:11.0.0-M18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:653) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:419) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-04-25T14:34:07.462+05:30  INFO 4778 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:34:07.464+05:30  INFO 4778 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:34:07.468+05:30  INFO 4778 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:34:09.170+05:30  INFO 4791 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4791 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:34:09.171+05:30  INFO 4791 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:34:09.557+05:30  INFO 4791 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:34:09.590+05:30  INFO 4791 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:34:10.010+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:34:10.017+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:34:10.018+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:34:10.156+05:30  INFO 4791 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:34:10.160+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:34:10.160+05:30  INFO 4791 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2024-04-25T14:34:10.257+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:34:10.300+05:30  INFO 4791 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:34:10.323+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:34:10.479+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:34:10.500+05:30  INFO 4791 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:34:10.725+05:30  INFO 4791 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d85b399
+2024-04-25T14:34:10.726+05:30  INFO 4791 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:34:11.444+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:34:11.531+05:30  INFO 4791 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:34:11.781+05:30  WARN 4791 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:34:12.016+05:30  INFO 4791 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:34:12.023+05:30  INFO 4791 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.16 seconds (process running for 3.612)
+2024-04-25T14:34:18.236+05:30  INFO 4791 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:34:18.237+05:30  INFO 4791 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:34:18.238+05:30  INFO 4791 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:34:39.180+05:30  INFO 4791 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:34:39.182+05:30  INFO 4791 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:34:39.186+05:30  INFO 4791 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:34:40.843+05:30  INFO 4798 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4798 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:34:40.845+05:30  INFO 4798 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:34:41.219+05:30  INFO 4798 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:34:41.249+05:30  INFO 4798 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:34:41.654+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:34:41.662+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:34:41.662+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:34:41.800+05:30  INFO 4798 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:34:41.805+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:34:41.805+05:30  INFO 4798 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 905 ms
+2024-04-25T14:34:41.901+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:34:41.944+05:30  INFO 4798 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:34:41.969+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:34:42.130+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:34:42.150+05:30  INFO 4798 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:34:42.375+05:30  INFO 4798 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a69f9d
+2024-04-25T14:34:42.377+05:30  INFO 4798 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:34:43.098+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:34:43.184+05:30  INFO 4798 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:34:43.431+05:30  WARN 4798 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:34:43.666+05:30  INFO 4798 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:34:43.673+05:30  INFO 4798 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.168 seconds (process running for 3.618)
+2024-04-25T14:34:46.206+05:30  INFO 4798 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:34:46.206+05:30  INFO 4798 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:34:46.207+05:30  INFO 4798 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:35:10.688+05:30  INFO 4798 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:35:10.690+05:30  INFO 4798 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:35:10.694+05:30  INFO 4798 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:35:12.395+05:30  INFO 4821 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4821 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:35:12.397+05:30  INFO 4821 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:35:12.740+05:30  INFO 4821 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:35:12.770+05:30  INFO 4821 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:35:13.176+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:35:13.184+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:35:13.185+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:35:13.325+05:30  INFO 4821 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:35:13.329+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:35:13.329+05:30  INFO 4821 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2024-04-25T14:35:13.424+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:35:13.465+05:30  INFO 4821 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:35:13.488+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:35:13.642+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:35:13.662+05:30  INFO 4821 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:35:13.892+05:30  INFO 4821 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bfa3893
+2024-04-25T14:35:13.893+05:30  INFO 4821 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:35:14.607+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:35:14.695+05:30  INFO 4821 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:35:14.943+05:30  WARN 4821 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:35:15.172+05:30  INFO 4821 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:35:15.179+05:30  INFO 4821 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.116 seconds (process running for 3.565)
+2024-04-25T14:35:18.874+05:30  INFO 4821 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:35:18.874+05:30  INFO 4821 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:35:18.875+05:30  INFO 4821 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-04-25T14:35:49.767+05:30  INFO 4821 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:35:49.769+05:30  INFO 4821 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:35:49.774+05:30  INFO 4821 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:35:51.356+05:30  INFO 4832 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4832 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:35:51.357+05:30  INFO 4832 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:35:51.647+05:30  INFO 4832 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:35:51.675+05:30  INFO 4832 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:35:52.087+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:35:52.095+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:35:52.095+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:35:52.232+05:30  INFO 4832 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:35:52.236+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:35:52.236+05:30  INFO 4832 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 845 ms
+2024-04-25T14:35:52.338+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:35:52.381+05:30  INFO 4832 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:35:52.405+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:35:52.564+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:35:52.584+05:30  INFO 4832 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:35:52.812+05:30  INFO 4832 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d3163a6
+2024-04-25T14:35:52.814+05:30  INFO 4832 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:35:53.543+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:35:53.632+05:30  INFO 4832 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:35:53.877+05:30  WARN 4832 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:35:54.110+05:30  INFO 4832 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:35:54.117+05:30  INFO 4832 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.003 seconds (process running for 3.401)
+2024-04-25T14:35:56.790+05:30  INFO 4832 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:35:56.790+05:30  INFO 4832 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:35:56.791+05:30  INFO 4832 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:36:19.582+05:30  INFO 4832 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:36:19.584+05:30  INFO 4832 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:36:19.587+05:30  INFO 4832 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:36:21.095+05:30  INFO 4849 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4849 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:36:21.096+05:30  INFO 4849 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:36:21.470+05:30  INFO 4849 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:36:21.503+05:30  INFO 4849 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:36:21.917+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:36:21.925+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:36:21.925+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:36:22.057+05:30  INFO 4849 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:36:22.061+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:36:22.062+05:30  INFO 4849 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 930 ms
+2024-04-25T14:36:22.159+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:36:22.200+05:30  INFO 4849 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:36:22.224+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:36:22.377+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:36:22.397+05:30  INFO 4849 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:36:22.620+05:30  INFO 4849 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fdb7394
+2024-04-25T14:36:22.621+05:30  INFO 4849 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:36:23.344+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:36:23.435+05:30  INFO 4849 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:36:23.678+05:30  WARN 4849 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:36:23.914+05:30  INFO 4849 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:36:23.921+05:30  INFO 4849 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.103 seconds (process running for 3.552)
+2024-04-25T14:36:26.038+05:30  INFO 4849 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:36:26.039+05:30  INFO 4849 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:36:26.040+05:30  INFO 4849 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:37:07.420+05:30  INFO 4849 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:37:07.423+05:30  INFO 4849 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:37:07.428+05:30  INFO 4849 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:37:08.983+05:30  INFO 4856 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4856 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:37:08.985+05:30  INFO 4856 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:37:09.354+05:30  INFO 4856 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:37:09.383+05:30  INFO 4856 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:37:09.793+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:37:09.800+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:37:09.801+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:37:09.933+05:30  INFO 4856 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:37:09.937+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:37:09.937+05:30  INFO 4856 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 899 ms
+2024-04-25T14:37:10.033+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:37:10.074+05:30  INFO 4856 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:37:10.098+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:37:10.253+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:37:10.274+05:30  INFO 4856 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:37:10.494+05:30  INFO 4856 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1846ad0f
+2024-04-25T14:37:10.495+05:30  INFO 4856 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:37:11.217+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:37:11.305+05:30  INFO 4856 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:37:11.552+05:30  WARN 4856 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:37:11.789+05:30  INFO 4856 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:37:11.796+05:30  INFO 4856 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.12 seconds (process running for 3.566)
+2024-04-25T14:37:13.904+05:30  INFO 4856 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:37:13.904+05:30  INFO 4856 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:37:13.906+05:30  INFO 4856 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-25T14:37:27.347+05:30  INFO 4856 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:37:27.349+05:30  INFO 4856 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:37:27.353+05:30  INFO 4856 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:37:29.027+05:30  INFO 4866 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4866 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:37:29.029+05:30  INFO 4866 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:37:29.402+05:30  INFO 4866 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:37:29.431+05:30  INFO 4866 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:37:29.839+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:37:29.846+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:37:29.846+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:37:29.988+05:30  INFO 4866 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:37:29.992+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:37:29.993+05:30  INFO 4866 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 909 ms
+2024-04-25T14:37:30.089+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:37:30.131+05:30  INFO 4866 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:37:30.154+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:37:30.313+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:37:30.332+05:30  INFO 4866 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:37:30.555+05:30  INFO 4866 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31ab4859
+2024-04-25T14:37:30.556+05:30  INFO 4866 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:37:31.287+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:37:31.367+05:30  INFO 4866 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:37:31.618+05:30  WARN 4866 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:37:31.850+05:30  INFO 4866 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:37:31.857+05:30  INFO 4866 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.18 seconds (process running for 3.69)
+2024-04-25T14:37:33.866+05:30  INFO 4866 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:37:33.866+05:30  INFO 4866 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:37:33.867+05:30  INFO 4866 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:37:54.861+05:30  INFO 4866 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:37:54.863+05:30  INFO 4866 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:37:54.867+05:30  INFO 4866 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:37:56.468+05:30  INFO 4875 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4875 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:37:56.470+05:30  INFO 4875 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:37:56.778+05:30  INFO 4875 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:37:56.807+05:30  INFO 4875 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:37:57.211+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:37:57.218+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:37:57.218+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:37:57.351+05:30  INFO 4875 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:37:57.356+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:37:57.356+05:30  INFO 4875 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 850 ms
+2024-04-25T14:37:57.449+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:37:57.488+05:30  INFO 4875 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:37:57.511+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:37:57.660+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:37:57.680+05:30  INFO 4875 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:37:57.901+05:30  INFO 4875 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37bda983
+2024-04-25T14:37:57.903+05:30  INFO 4875 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:37:58.604+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:37:58.684+05:30  INFO 4875 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:37:58.925+05:30  WARN 4875 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:37:59.151+05:30  INFO 4875 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:37:59.158+05:30  INFO 4875 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.952 seconds (process running for 3.355)
+2024-04-25T14:38:01.259+05:30  INFO 4875 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:38:01.260+05:30  INFO 4875 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:38:01.261+05:30  INFO 4875 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:40:08.927+05:30  INFO 4875 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:40:08.930+05:30  INFO 4875 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:40:08.936+05:30  INFO 4875 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:40:10.503+05:30  INFO 4914 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 4914 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:40:10.505+05:30  INFO 4914 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:40:10.810+05:30  INFO 4914 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:40:10.838+05:30  INFO 4914 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:40:11.258+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:40:11.266+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:40:11.266+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:40:11.410+05:30  INFO 4914 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:40:11.414+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:40:11.414+05:30  INFO 4914 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 875 ms
+2024-04-25T14:40:11.515+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:40:11.560+05:30  INFO 4914 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:40:11.583+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:40:11.741+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:40:11.761+05:30  INFO 4914 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:40:11.992+05:30  INFO 4914 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b5798c2
+2024-04-25T14:40:11.993+05:30  INFO 4914 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:40:12.719+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:40:12.807+05:30  INFO 4914 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:40:13.055+05:30  WARN 4914 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:40:13.289+05:30  INFO 4914 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:40:13.296+05:30  INFO 4914 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 3.053 seconds (process running for 3.469)
+2024-04-25T14:40:16.872+05:30  INFO 4914 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:40:16.872+05:30  INFO 4914 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:40:16.874+05:30  INFO 4914 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-25T14:41:04.629+05:30  WARN 4914 --- [survey-system-spring-boot] [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2024-04-25T14:41:04.629+05:30 ERROR 4914 --- [survey-system-spring-boot] [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))
+2024-04-25T14:41:04.636+05:30 ERROR 4914 --- [survey-system-spring-boot] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))] [delete from survey where id=?]; SQL [delete from survey where id=?]; constraint [null]] with root cause
+
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.coordinateDelete(AbstractDeleteCoordinator.java:87) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2979) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:632) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:499) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1403) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:484) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2319) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1976) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:676) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:426) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.2.5.jar:3.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.6.jar:6.1.6]
+	at jdk.proxy2/jdk.proxy2.$Proxy115.deleteById(Unknown Source) ~[na:na]
+	at com.survey.service.SurveyService.deleteSurvey(SurveyService.java:30) ~[classes/:na]
+	at com.survey.controllers.GetController.deleteSurvey(GetController.java:94) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-04-25T14:49:04.490+05:30  INFO 4914 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:49:04.496+05:30  INFO 4914 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:49:04.503+05:30  INFO 4914 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:49:06.665+05:30  INFO 5010 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 5010 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:49:06.666+05:30  INFO 5010 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:49:06.947+05:30  INFO 5010 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:49:06.975+05:30  INFO 5010 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:49:07.387+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:49:07.395+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:49:07.395+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:49:07.538+05:30  INFO 5010 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:49:07.542+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:49:07.542+05:30  INFO 5010 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 844 ms
+2024-04-25T14:49:07.640+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:49:07.682+05:30  INFO 5010 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:49:07.705+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:49:07.857+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:49:07.877+05:30  INFO 5010 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:49:08.101+05:30  INFO 5010 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70f85235
+2024-04-25T14:49:08.102+05:30  INFO 5010 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:49:08.813+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:49:08.903+05:30  INFO 5010 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:49:09.144+05:30  WARN 5010 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:49:09.382+05:30  INFO 5010 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:49:09.389+05:30  INFO 5010 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.966 seconds (process running for 3.353)
+2024-04-25T14:49:14.593+05:30  INFO 5010 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:49:14.593+05:30  INFO 5010 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:49:14.595+05:30  INFO 5010 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-04-25T14:49:22.708+05:30  WARN 5010 --- [survey-system-spring-boot] [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2024-04-25T14:49:22.708+05:30 ERROR 5010 --- [survey-system-spring-boot] [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))
+2024-04-25T14:49:22.715+05:30 ERROR 5010 --- [survey-system-spring-boot] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))] [delete from survey where id=?]; SQL [delete from survey where id=?]; constraint [null]] with root cause
+
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.coordinateDelete(AbstractDeleteCoordinator.java:87) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2979) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:632) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:499) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1403) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:484) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2319) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1976) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:676) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:426) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.2.5.jar:3.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.6.jar:6.1.6]
+	at jdk.proxy2/jdk.proxy2.$Proxy115.deleteById(Unknown Source) ~[na:na]
+	at com.survey.service.SurveyService.deleteSurvey(SurveyService.java:30) ~[classes/:na]
+	at com.survey.controllers.GetController.deleteSurvey(GetController.java:94) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-04-25T14:53:51.002+05:30  INFO 5010 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:53:51.008+05:30  INFO 5010 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:53:51.016+05:30  INFO 5010 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:53:53.068+05:30  INFO 5072 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 5072 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:53:53.069+05:30  INFO 5072 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:53:53.349+05:30  INFO 5072 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:53:53.377+05:30  INFO 5072 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:53:53.777+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:53:53.785+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:53:53.785+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:53:53.922+05:30  INFO 5072 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:53:53.926+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:53:53.927+05:30  INFO 5072 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2024-04-25T14:53:54.019+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:53:54.059+05:30  INFO 5072 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:53:54.082+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:53:54.235+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:53:54.254+05:30  INFO 5072 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:53:54.491+05:30  INFO 5072 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d9de284
+2024-04-25T14:53:54.493+05:30  INFO 5072 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:53:55.214+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:53:55.302+05:30  INFO 5072 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:53:55.549+05:30  WARN 5072 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:53:55.781+05:30  INFO 5072 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:53:55.788+05:30  INFO 5072 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.953 seconds (process running for 3.334)
+2024-04-25T14:54:06.139+05:30  INFO 5072 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:54:06.139+05:30  INFO 5072 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:54:06.141+05:30  INFO 5072 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-25T14:54:06.271+05:30  WARN 5072 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2024-04-25T14:54:06.271+05:30 ERROR 5072 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))
+2024-04-25T14:54:06.278+05:30 ERROR 5072 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))] [delete from survey where id=?]; SQL [delete from survey where id=?]; constraint [null]] with root cause
+
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`ajp`.`survey_response`, CONSTRAINT `FK84qtox6878n0fh337ent4mwgo` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.coordinateDelete(AbstractDeleteCoordinator.java:87) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2979) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:632) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:499) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1403) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:484) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2319) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1976) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:676) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:426) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.2.5.jar:3.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.6.jar:6.1.6]
+	at jdk.proxy2/jdk.proxy2.$Proxy115.deleteById(Unknown Source) ~[na:na]
+	at com.survey.service.SurveyService.deleteSurvey(SurveyService.java:30) ~[classes/:na]
+	at com.survey.controllers.GetController.deleteSurvey(GetController.java:94) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-04-25T14:57:10.457+05:30  INFO 5072 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:57:10.462+05:30  INFO 5072 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-25T14:57:10.470+05:30  INFO 5072 --- [survey-system-spring-boot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-25T14:57:12.864+05:30  INFO 5113 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Starting SurveySystemSpringBootApplication using Java 21.0.2 with PID 5113 (/Users/sandeepruttala/AJP/survey-system-spring-boot/target/classes started by sandeepruttala in /Users/sandeepruttala/AJP/survey-system-spring-boot)
+2024-04-25T14:57:12.866+05:30  INFO 5113 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-25T14:57:13.158+05:30  INFO 5113 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25T14:57:13.185+05:30  INFO 5113 --- [survey-system-spring-boot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2024-04-25T14:57:13.593+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-25T14:57:13.600+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-25T14:57:13.601+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25T14:57:13.739+05:30  INFO 5113 --- [survey-system-spring-boot] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-04-25T14:57:13.743+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-25T14:57:13.743+05:30  INFO 5113 --- [survey-system-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 844 ms
+2024-04-25T14:57:13.839+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25T14:57:13.880+05:30  INFO 5113 --- [survey-system-spring-boot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25T14:57:13.904+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-25T14:57:14.057+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25T14:57:14.076+05:30  INFO 5113 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-25T14:57:14.301+05:30  INFO 5113 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b5798c2
+2024-04-25T14:57:14.302+05:30  INFO 5113 --- [survey-system-spring-boot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-25T14:57:15.018+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25T14:57:15.111+05:30  INFO 5113 --- [survey-system-spring-boot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25T14:57:15.358+05:30  WARN 5113 --- [survey-system-spring-boot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25T14:57:15.592+05:30  INFO 5113 --- [survey-system-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-25T14:57:15.599+05:30  INFO 5113 --- [survey-system-spring-boot] [main] c.s.SurveySystemSpringBootApplication    : Started SurveySystemSpringBootApplication in 2.996 seconds (process running for 3.381)
+2024-04-25T14:57:20.061+05:30  INFO 5113 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25T14:57:20.062+05:30  INFO 5113 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-25T14:57:20.063+05:30  INFO 5113 --- [survey-system-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

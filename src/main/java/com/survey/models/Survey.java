@@ -20,14 +20,26 @@ public class Survey {
     @OneToMany(mappedBy = "survey", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Question> questions = new ArrayList<>();
 
+    @OneToMany(mappedBy = "survey", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<SurveyResponse> responses = new ArrayList<>();
+
     public Survey() {
         }
 
-    public Survey(String title, String description, User creator, List<Question> questions) {
+    public Survey(String title, String description, User creator, List<Question> questions, List<SurveyResponse> responses) {
         this.title = title;
         this.description = description;
         this.creator = creator;
         this.questions = questions;
+        this.responses = responses;
+    }
+
+    public List<SurveyResponse> getResponses() {
+        return responses;
+    }
+
+    public void setResponses(List<SurveyResponse> responses) {
+        this.responses = responses;
     }
 
     public Long getId() {
