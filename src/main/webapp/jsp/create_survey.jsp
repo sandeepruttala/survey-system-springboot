@@ -26,8 +26,7 @@
         }
 
         .form {
-            width: 100%;
-            max-width: 500px;
+            width: 700px;
             margin: auto;
             display: flex;
             flex-direction: column;
@@ -76,7 +75,7 @@
 
         .none {
             padding: 15px;
-            width: 300px;
+            width: 650px;
             border: 2px solid #8f8f8f;
             border-radius: 2px;
             font-size: 16px;

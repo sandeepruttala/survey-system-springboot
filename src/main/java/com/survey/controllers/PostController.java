@@ -123,7 +123,7 @@ public class PostController {
         }
 
         surveyService.saveSurvey(survey);
-        return "redirect:/home";
+        return "redirect:/view_all_surveys";
     }
 
     @PostMapping("/saveResponse/{surveyId}")
