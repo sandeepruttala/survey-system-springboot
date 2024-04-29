@@ -83,7 +83,10 @@ public class GetController {
     }
 
     @GetMapping("/survey/{id}")
-    public String viewSurvey(Model model, @PathVariable Long id){
+    public String viewSurvey(Model model, @PathVariable Long id, HttpSession session){
+        if (session.getAttribute("isAuthenticated") == null) {
+            return "redirect:/login";
+        }
         Survey survey = surveyService.getSurveybyid(id);
         model.addAttribute("survey", survey);
         return "view_survey";
