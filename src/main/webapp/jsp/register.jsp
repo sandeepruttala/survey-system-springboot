@@ -84,6 +84,6 @@
         <div style="height: 40px;"></div>
         <button type="submit">Login</button>
         <div style="height: 24px;"></div>
-        <div><span style="color: #8f8f8f;">Don't have an account?</span> <a href="/register">Register here</a></div>
+        <div><span style="color: #8f8f8f;">Already have an account?</span> <a href="/login">Login here</a></div>
     </form>
 </body>
